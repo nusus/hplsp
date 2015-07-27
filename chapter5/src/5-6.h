@@ -39,6 +39,7 @@ int main ( int argc , char* argv [ ] )
 		printf ( "connection failed\n" );
 	} else
 	{
+		//带外数据
 		const char* oob_data = "abc";
 		const char* normal_data = "123";
 		send ( sockfd , normal_data ,
